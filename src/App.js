@@ -31,9 +31,9 @@ import ClickedRenderProps from "./components/ClickedRenderProps";
 function App() {
   return (
     <div >
-      <ClickedRenderProps />
-       <Counter render={(count, incrementCount)=><ClickedCounterTwo count={count} incrementCount={incrementCount}/>}/>
-      <Counter render={(count, incrementCount)=><HoveredCounterTwo count={count} incrementCount={incrementCount}/>}/> 
+      {/* <ClickedRenderProps /> */}
+       {/* <Counter render={(count, incrementCount)=><ClickedCounterTwo count={count} incrementCount={incrementCount}/>}/> */}
+      {/* <Counter render={(count, incrementCount)=><HoveredCounterTwo count={count} incrementCount={incrementCount}/>}/>  */}
       {/* <HoveredCounterTwo /> */}
       {/* <ClickedCounterTwo /> */}
       {/* <User render={(isLoggedIn)=> isLoggedIn ? "seth" : "guest"}/> */}
@@ -80,11 +80,11 @@ function App() {
       {/* <FragDemo /> */}
       
       {/* <Nav /> */}
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
-      {/* <Analytics /> */}
-      {/* <Newsletter /> */}
-      {/* <Cards />  */}
+      <Navbar />
+      <Hero />
+      <Analytics />
+      <Newsletter />
+      <Cards /> 
     </div>
   );
 }
